@@ -50,12 +50,17 @@ body {
     color: var(--main-color);
     text-decoration: none;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* header */
 
 .page-header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC=;
     background-color: var(--fourth-color);
 }
 
@@ -134,6 +139,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .mail{
     width: 135px;
 }
@@ -154,19 +160,16 @@ body {
 
 /* hero */
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
     background-color:var(--sixth-color); 
-}
-
-.hero-wrap {
 }
 
 .hero-title {
     width: 696px;
-    padding-top: 200px;
-    padding-bottom: 280px;
-    padding-left: auto;
-    padding-right: auto;
-    margin-bottom: 30px;
     margin:0 auto;
     color:var(--fourth-color);
     font-weight: 900;
@@ -178,10 +181,10 @@ body {
 }
 
 .hero-button {
-    display:block;
+    display:inline-block;
     width: 216px;
-    margin-top: 30px;
     margin:0 auto;
+    margin-top: 30px;
     color:var(--fourth-color);
     background-color: var(--tertiary-color);
     font-weight: 700;
@@ -194,11 +197,6 @@ body {
 }
 
 /* section */
-
-.quality-section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .main-quality {
     position: absolute;
@@ -229,11 +227,8 @@ body {
 
 /* activity-section */
 
-.activity-section {
-    padding-bottom: 94px;
-}
-
 .activity-title {
+    margin: 0 auto;
     width:366px;
     margin-bottom: 50px;
     color:var(--secondary-color);
@@ -243,15 +238,15 @@ body {
 }
 
 /* team-section */
+
 .team-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: var(--seventh-color);
 }
 
 .team-title {
     width:264px;
     margin-bottom: 50px;
+    margin: 0 auto;
     color:var(--secondary-color);
     font-weight: 700;
     font-size: 36px;
